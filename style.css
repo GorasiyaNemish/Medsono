@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    background: #23856D; /* secondary */
+    padding: 0 24px;
+    color: #FFFFFF;
+}
+#contact div {
+    display: flex;
+    height: 18px;
+    align-items: center;
+}
+#contact div span {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+#contact-left span , #contact-right span{
+    padding: 10px;
+}
+#contact-left span i {
+    margin-right: 5px;
+}
+
+#contact i {
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#navbar{
+    height: 58px;
+    border: 2px solid black;
+    top: 70px;
+    width: 100vw;
+    position: absolute;
+}
